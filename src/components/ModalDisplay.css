@@ -1,0 +1,63 @@
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);  
+    z-index: 999; 
+  }
+  
+  
+  
+  .Modal {
+    position: fixed;
+    border: none;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 70vh; 
+    background-color: rgba(0, 0, 0, 0.8);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; 
+    box-sizing: border-box; 
+    z-index: 1000; 
+  }
+  
+  
+  .modal-content {
+    background-color: white; 
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 90%; 
+    max-height: 90%; 
+    overflow: auto; 
+    box-sizing: border-box;
+    text-align: center; 
+  }
+  
+  .modal-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-content button:hover {
+    background-color: #0056b3;
+  }
+  
